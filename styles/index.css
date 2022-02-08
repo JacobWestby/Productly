@@ -335,9 +335,57 @@ header {
   color: #ffffff;
   border: 1px solid grey;
   margin-top: 49px;
-  margin-bottom: 249px;
 }
 
 /* CARDS END */
 
 /* TEXT CONTENT */
+
+.text__content {
+  margin-top: 349px;
+  width: 80%;
+  height: 573px;
+  margin-left: 145px;
+}
+
+.text__content-container {
+  width: 486px;
+  display: inline-block;
+}
+
+.text__content-container > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #544837;
+  margin-bottom: 30px;
+}
+
+.text__content-container > p:first-child {
+  margin-bottom: 3px;
+}
+
+.text__content-container > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+  margin-bottom: 22px;
+}
+
+.text__content-container > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+}
+
+.text__content-img {
+  float: right;
+}
