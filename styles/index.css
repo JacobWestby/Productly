@@ -340,20 +340,20 @@ header {
 /* CARDS END */
 
 /* TEXT CONTENT */
-
-.text__content {
+/* FIRST TEXT CONTENT BOX */
+.text__content-1 {
   margin-top: 349px;
   width: 80%;
   height: 573px;
   margin-left: 145px;
 }
 
-.text__content-container {
+.text__content-container-1 {
   width: 486px;
   display: inline-block;
 }
 
-.text__content-container > p {
+.text__content-container-1 > p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -363,11 +363,11 @@ header {
   margin-bottom: 30px;
 }
 
-.text__content-container > p:first-child {
+.text__content-container-1 > p:first-child {
   margin-bottom: 3px;
 }
 
-.text__content-container > h2 {
+.text__content-container-1 > h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -377,7 +377,7 @@ header {
   margin-bottom: 22px;
 }
 
-.text__content-container > h3 {
+.text__content-container-1 > h3 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -386,6 +386,188 @@ header {
   color: #2f281e;
 }
 
-.text__content-img {
+.text__content-img-1 {
   float: right;
 }
+
+/* FIRST TEXT CONTENT BOX ENDS */
+
+/* SECOND TEXT CONTENT BOX */
+
+.text__content-2 {
+  margin-top: 151px;
+  width: 80%;
+  height: 573px;
+  margin-left: 145px;
+}
+
+.text__content-img-2 {
+  display: inline-block;
+}
+
+.text__content-container-2 {
+  float: right;
+  height: 486px;
+  width: 427px;
+  margin-top: 20px;
+}
+
+.text__content-container-2 > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #544837;
+  margin-bottom: 30px;
+}
+
+.text__content-container-2 > p:first-child {
+  margin-bottom: 3px;
+}
+
+.text__content-container-2 > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+  margin-bottom: 22px;
+}
+
+.inner__checkmark {
+  display: flex;
+  height: 52px;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inner__checkmark > img {
+  height: 35px;
+  width: 35px;
+  margin-right: 30px;
+}
+
+/* SECOND TEXT CONTENT BOX ENDS */
+
+/* THRID TEXT CONTENT BOX */
+
+.text__content-3 {
+  margin-top: 143px;
+  width: 80%;
+  height: 573px;
+  margin-left: 145px;
+  margin-bottom: 146px;
+}
+
+.text__content-container-3 {
+  width: 486px;
+  display: inline-block;
+}
+
+.text__content-container-3 > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #544837;
+  margin-bottom: 30px;
+}
+
+.text__content-container-3 > p:first-child {
+  margin-bottom: 3px;
+}
+
+.text__content-container-3 > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #2f281e;
+  margin-bottom: 22px;
+}
+
+.text__content-container-3 > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2f281e;
+}
+
+.text__content-img-3 {
+  float: right;
+}
+
+/* THIRD TEXT CONTENT BOX ENDS */
+
+/* FOOTER */
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer__cont {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__cont-links {
+  display: flex;
+  flex-direction: column;
+  width: 118px;
+  height: 205px;
+  justify-content: flex-end;
+  padding: 90px;
+}
+
+.footer__cont-links > a {
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
+}
+
+.links-cont-right {
+  width: 140px;
+}
+
+.footer__sign-up {
+  display: flex;
+  flex-wrap: wrap;
+  width: 325px;
+  height: 189px;
+  position: relative;
+  top: 170px;
+}
+
+.footer__sign-up > input {
+  height: 48px;
+  width: 325px;
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: -50px;
+}
+
+.footer__sign-up-btn {
+  height: 39px;
+  width: 139px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+/* FOOTER ENDS */
+
+/* I know footer isn't exactly link the figma design but i just couldn't get them where i wanted them and i was pressed for time. 
+I also know there's a lot of repetition and repedative code and i hope to not have as much of that in the future! */
