@@ -1,0 +1,343 @@
+/* RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET ENDS */
+
+/* STYLING */
+/* HEADER */
+
+/* NAV */
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 78px;
+}
+
+.nav__list {
+  position: relative;
+  width: 750px;
+  text-align: right;
+}
+
+.nav__list > li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.nav__list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.sign-in {
+  margin-left: 20px;
+  margin-right: 14px;
+  background-color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173a56;
+}
+
+.sign-up {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff9900;
+}
+
+.nav__btn {
+  height: 46px;
+  width: 102px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+/* NAV ENDS */
+
+header {
+  margin-left: 145px;
+  margin-bottom: 110px;
+}
+
+.header__img {
+  position: relative;
+  width: 640px;
+  display: inline-block;
+}
+
+.header__cont {
+  width: 478px;
+  height: 313px;
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+  justify-content: space-around;
+  position: relative;
+  bottom: 100px;
+}
+
+.header__cont > h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2f281e;
+}
+
+.header__cont > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.get__started {
+  background: #ff9900;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 1px solid grey;
+  margin-right: 30px;
+}
+
+.play {
+  position: relative;
+  top: 3px;
+}
+
+.watch__video {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #ff9900;
+}
+
+/* HEADER ENDS */
+
+/* MAIN */
+
+/* CARDS */
+
+.cards {
+  width: 80%;
+  height: 230px;
+  margin: 0 auto;
+}
+
+.cards > h2 {
+  margin-bottom: 54px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.cards > .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+/* Stack overflow helped me out alot here fixing the flex values so that the sign up button will wrap without the others! */
+
+.cont__card {
+  width: 240px;
+  height: 178px;
+  margin-right: 40px;
+  flex: 1 0 20%;
+}
+
+.cont__card > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+  margin-bottom: 13px;
+}
+
+.cont__card-img {
+  margin-bottom: 30px;
+}
+
+.cont__card > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.sign__up-now {
+  width: 175px;
+  height: 53px;
+  background: #ff9900;
+  border-radius: 4px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 1px solid grey;
+  margin-top: 49px;
+  margin-bottom: 249px;
+}
+
+/* CARDS END */
+
+/* TEXT CONTENT */
